@@ -10,8 +10,8 @@ function App() {
     <div className="p-10">
    <Header />
    <div className="md:flex">
-   <Blogs setBookMarked={setBookMarked} />
-   <Bookmarks />
+   <Blogs setBookMarked={setBookMarked} bookmarked={bookmarked} />
+   <Bookmarks bookmarked={bookmarked} />
    </div>
     </div>
   );
