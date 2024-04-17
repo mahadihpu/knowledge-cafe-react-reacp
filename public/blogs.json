@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "cover": "https://picsum.photos/id/10/800/400",
+        "cover": "https://picsum.photos/id/1/800/400",
         "author": "Alex Johnson",
         "title": "Exploring the Beauty of Urban Landscapes",
         "author_img": "https://picsum.photos/id/5/200/200",
@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "cover": "https://picsum.photos/id/11/800/400",
+        "cover": "https://picsum.photos/id/2/800/400",
         "author": "Samantha Lee",
         "title": "The Art of Coffee Brewing at Home",
         "author_img": "https://picsum.photos/id/6/200/200",
@@ -29,7 +29,7 @@
     },
     {
         "id": 3,
-        "cover": "https://picsum.photos/id/12/800/400",
+        "cover": "https://picsum.photos/id/3/800/400",
         "author": "Michael Chen",
         "title": "Beginner's Guide to Sustainable Gardening",
         "author_img": "https://picsum.photos/id/7/200/200",
@@ -43,7 +43,7 @@
     },
     {
         "id": 4,
-        "cover": "https://picsum.photos/id/13/800/400",
+        "cover": "https://picsum.photos/id/4/800/400",
         "author": "Isabella Garcia",
         "title": "Discovering the World Through Street Food",
         "author_img": "https://picsum.photos/id/8/200/200",
@@ -57,7 +57,7 @@
     },
     {
         "id": 5,
-        "cover": "https://picsum.photos/id/14/800/400",
+        "cover": "https://picsum.photos/id/5/800/400",
         "author": "Ethan Wright",
         "title": "The Rise of Digital Art and NFTs",
         "author_img": "https://picsum.photos/id/9/200/200",

@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { FaBookmark } from "react-icons/fa";
+import {  useNavigate } from 'react-router-dom';
 
 export default function Blogs({ setBookMarked, bookmarked }) {
   const [blogs, setBlogs] = useState([]);
+  let navigate = useNavigate();
 
   useEffect(() => {
     fetch("blogs.json")
@@ -11,6 +13,10 @@ export default function Blogs({ setBookMarked, bookmarked }) {
   }, []);
 
   console.log({ blogs });
+
+  function handleClick(id) {
+    navigate('/blog/' + id); // Replace '/path' with your desired route
+  }
 
   return (
     <div className="md:w-2/3 mx-auto">
@@ -58,7 +64,7 @@ export default function Blogs({ setBookMarked, bookmarked }) {
             </div>
           </div>
           <div className="pt-5">
-            <p className="text-3xl font-bold">{blog.title}</p>
+            <p className="text-3xl font-bold cursor-pointer hover:text-purple-00" onClick={() => handleClick(blog.id)}>{blog.title}</p>
             <p>{blog.hashtags}</p>
           </div>
         </div>
